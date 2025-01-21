@@ -37,6 +37,7 @@ resource "aws_security_group" "example" {
 
   tags = {
     Name = "example-security-group"
+    Description = "Enable SSH access to example host"
   }
 }
 
